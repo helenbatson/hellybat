@@ -1,0 +1,302 @@
+/**************************
+GENERAL
+***************************/
+* {margin: 0; padding: 0;}
+
+body {
+  font-family: 'Raleway', 'Open Sans', sans-serif;
+  text-align:center;
+  color: white;  
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+/**************************
+HEADING
+***************************/
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  margin: 15px 0;
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  margin: -5px 0 0;
+  font-size: 2em;
+  color: red;
+}
+
+#logo {
+  font-size: 1.5em;
+}
+
+#logo h2{
+  font-size: 0.8em;
+}
+
+/**************************
+NAVIGATION
+***************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-size: 1.1em;
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+.selected {
+	font-size: 1.5em;
+}
+
+/**************************
+PAGE: MAIN LANDING
+***************************/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#gallery {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+#primary  img {
+  border-top: 5px solid black;  
+  border-bottom: 5px solid black;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+#primary  p:nth-child(2) {
+  font-family: 'Lobster', cursive;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: black;
+}
+
+#secondary  img {
+  width: 27%;
+  padding: 0 3%;
+  margin: 30px 0;
+  float: left;
+}
+
+#gallery  li {
+  list-style: none;
+}
+
+#gallery  a {
+  display:block;
+  background-size: 20px 20px;
+  color: white;
+}
+
+#primary  p {
+  max-width: 500px;
+  display: block;
+  margin: auto;
+}
+
+/**************************
+PAGE: MENU
+***************************/
+
+#menu-intro img {
+  border-top: 20px solid black;  
+  border-bottom: 20px solid black;
+  margin: -30px 0; 
+}
+
+#menu-intro li {
+  list-style: none;
+}
+
+#menu-intro a {
+  background-size: 20px 20px; 
+  list-style: none;
+  color: white;
+  display:block;
+  background-size: 20px 20px;
+  padding-right: 40px;
+  list-style: none;
+  color: white;
+}
+
+#menu-intro p {
+  color: white;
+  max-width: 450px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.fooddrink {
+  text-decoration: underline;
+}
+
+/**************************
+PAGE: MAIN, ABOUT
+.contact-info
+.address, .hours, .directions
+***************************/
+
+.contact-info {
+  list-style: none;
+  display: block;
+  text-align: center;
+  color: white;
+  margin: auto; /*'auto' helps to centre the photo*/
+}
+
+.contact-info img{
+  max-width: 400px;
+}
+
+.contact-info li {
+  list-style: none;
+}
+
+.contact-info a {
+  display:block;
+  background-size: 20px 20px;
+  padding-right: 40px;
+  margin: 0 0 10px;
+  list-style: none;
+  color: white;
+}
+
+#contact {
+	color: white;
+	font-size: 1em;
+}
+
+.address, .hours, .directions, .img2, .img3, .img4 {
+	width: 25%;
+	padding: 1%;
+}
+
+.address, .hours, .directions, .img2, .img3, .img4 {
+	float: left;
+}
+
+/*Social*/
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png')
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png')
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png')
+}
+
+/**************************
+FOOTER
+***************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+/**************************
+COLOURS
+***************************/
+
+/* Site Body */
+body {
+  background-color: #000;
+  background-image: url("wood.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.menu {
+  background-color: #000;
+  background-image: url("chalkboard.jpg");
+  background-repeat: no-repeat;
+  padding: 0px 20px 40px;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: #FF0000 #FFF200 black #1E9600;
+}
+
+/* Logo Text */
+h1, h2 {
+  color: #fff;
+}
+
+/* Nav Link */
+#ital, #ital:visited{
+	color: #FF0000;  /*rasta red*/
+}
+
+#menu, #menu:visited{
+	color: #FFF200;  /*rasta yellow*/
+}
+
+#about, #about:visited{
+	color: #1E9600;  /*rasta green*/
+}
+
+/*selected nav link*/
+#ital:hover, #menu:hover, #about:hover {
+  color: #000;
+}
+
+.foot a {
+  color: white;
+  font-weight: bold;
+}
+
+/* Float Clearfix */
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
